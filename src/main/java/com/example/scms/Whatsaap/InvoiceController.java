@@ -20,7 +20,7 @@ public class InvoiceController {
     private String invoicesDir;
 
     // Public base URL of your server (set this in application.properties when using ngrok or deployed)
-        private String publicBaseUrl = "https://scms-lqwu.onrender.com/";
+        private String publicBaseUrl = "https://scms-lqwu.onrender.com";
 
 
     @PostMapping(value = "/send", consumes = "application/json", produces = "application/json")
